@@ -1,0 +1,70 @@
+*{ 
+	box-sizing:border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #666699 0%, #003366 100%);
+
+
+}
+.espacio{
+	height: 3em;
+}
+.pie{
+	text-align: center;
+	color:  white;
+	background-color: #003366;
+	height: 5em;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background: linear-gradient(to left, #462255 0%, #313b72 100%);
+   }
+   .pie{
+   background: linear-gradient(to left, #462255 0%, #313b72 100%);
+  }
+  h5{
+  	text-align: center;
+  	color: white;
+  	background-color: #003366;
+  }
+  h3{
+  	text-align: center;
+  	color: white;
+  }
+  h4{
+  	text-align: center;
+  	color: black;
+  	font-style: normal;
+  }
+  p{
+	  text-align:justify;
+  	color: white;
+  }
+}
+h1{
+    color: white;
+    font-style:normal;
+    text-align:left;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+footer {
+  display: block;
+}
